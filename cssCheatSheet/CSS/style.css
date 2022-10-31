@@ -1,0 +1,48 @@
+body {
+  background-color: #475754;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: blue;
+  border: 5px red solid;
+  padding: 10px;
+}
+
+.box-1 h1 {
+  font-family: tahoma;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+.box-2 {
+  font-style: oblique;
+  border: black dotted;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.categories {
+  border: 1px orange solid;
+  padding: 10px;
+  margin-top: 15px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: oldlace;
+  border-radius: 50px;
+}
+.categories h1 {
+  text-align: center;
+  text-decoration: solid;
+  text-decoration-color: royalblue;
+}
+.categories ul {
+  padding: 0px;
+  list-style: circle inside;
+  text-align: left;
+}
