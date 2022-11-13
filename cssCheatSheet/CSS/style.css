@@ -21,6 +21,20 @@ a:visited {
   margin: auto;
 }
 
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: #475754;
+}
+
+.button:hover {
+  background-color: red;
+  color: #fff;
+}
+.clr {
+  clear: both;
+}
 .box-1 {
   background-color: blue;
   border: 5px red solid;
@@ -85,10 +99,22 @@ a:visited {
   padding: 8px;
   width: 100%;
 }
-
-.my-form input[type="submit"] {
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main-block {
+  float: left;
+  width: 70%;
+}
+#sidebar {
+  float: right;
+  width: 30%;
   background-color: #333;
   color: #fff;
-  padding: 10px 15px;
-  border: #475754;
+  padding: 15px;
+  box-sizing: border-box;
 }
